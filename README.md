@@ -57,7 +57,7 @@ titles=["Gray Image","Threshold Image (Binary)","Threshold Image (Binary Inverse
        ,"Threshold Image (To Zero-Inverse)","Threshold Image (Truncate)","Otsu","Adaptive Threshold (Mean)","Adaptive Threshold (Gaussian)"]
 images=[image_gray,thresh_img1,thresh_img2,thresh_img3,thresh_img4,thresh_img5,thresh_img6,thresh_img7,thresh_img8]
 for i in range(0,9):
-    plt.figure(figsize=(10,10))
+    plt.figure(figsize=(5,5))
     plt.subplot(1,2,1)
     plt.title("Original Image")
     plt.imshow(image)
@@ -71,25 +71,28 @@ for i in range(0,9):
 ## OUTPUT:
 
 ### Original Image and Grayscale Image
+![1](https://user-images.githubusercontent.com/75235488/169489939-95bbf87a-d180-4907-af8e-56579e8c2c58.png)
 
-![1](https://user-images.githubusercontent.com/75235488/169488345-98052227-7b9b-4db0-9c42-6fdeb7cfcb97.png)
+
 
 ### Global Thresholding
 
-![2](https://user-images.githubusercontent.com/75235488/169488393-d5fa5e50-add5-4f4d-a45f-ae87fdebee2a.png)
-![3](https://user-images.githubusercontent.com/75235488/169488423-81e9b2ae-e804-468e-bbfb-4538013c53d9.png)
-![4](https://user-images.githubusercontent.com/75235488/169488457-917be910-07f8-4be5-a042-a12f7566ed70.png)
-![5](https://user-images.githubusercontent.com/75235488/169488470-7c8118f0-131b-4f3a-bff7-9ec32346cdc8.png)
-![6](https://user-images.githubusercontent.com/75235488/169488486-29996dc9-b323-4a4a-a92d-8dbc230457f7.png)
+![2](https://user-images.githubusercontent.com/75235488/169490144-49a0d81d-8f35-4bfb-8d3a-27fbec344ef7.png)
+![3](https://user-images.githubusercontent.com/75235488/169490172-aa90832a-0d81-4f03-975b-c9f780fb68dd.png)
+![4](https://user-images.githubusercontent.com/75235488/169490269-3fd03cec-ce27-46fb-b35b-829c89358bd8.png)
+![5](https://user-images.githubusercontent.com/75235488/169490290-e9556294-a0d6-4715-b832-060380be3c1c.png)
+![6](https://user-images.githubusercontent.com/75235488/169490308-80744e5a-46c6-4d8a-89ff-fb22dd06fd0c.png)
 
 
 ### Adaptive Thresholding
-![7](https://user-images.githubusercontent.com/75235488/169488518-0598fd65-c544-447c-876b-0d610da84d8c.png)
-![8](https://user-images.githubusercontent.com/75235488/169488529-83f7b691-a071-4a70-80d2-92ff6559e963.png)
+
+![7](https://user-images.githubusercontent.com/75235488/169489987-85cfb06d-38fe-421a-bfbe-87f535270454.png)
+![8](https://user-images.githubusercontent.com/75235488/169490001-9fdc9a27-a74a-479e-994d-30573249dfd9.png)
 
 
 ### Optimum Global Thesholding using Otsu's Method
-![9](https://user-images.githubusercontent.com/75235488/169488563-de06302e-5601-4394-ba17-de6f433c5ae8.png)
+
+![9](https://user-images.githubusercontent.com/75235488/169489969-d55d4643-1c7d-45dc-95fe-5c5a9db52b08.png)
 
 
 
