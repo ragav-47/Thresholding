@@ -1,4 +1,6 @@
-# Thresholding
+### EX NO : 09
+### DATE  : 26.05.2022
+# <p align="center">Thresholding</p>
 ## AIM:
 To segment the image using global thresholding, adaptive thresholding and Otsu's thresholding using python and OpenCV.
 
